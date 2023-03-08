@@ -1,0 +1,75 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #aaccff;
+    color: #000000;
+    font-size: 15px;
+    font-family: Product sans;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  p {
+    font-style: italic;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 550px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  label {
+    display: block;
+    margin: 0.8rem 0;
+    
+  }
+  
+  input, textarea, select {
+    margin: 10px 0 0;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  input:focus {
+    outline-color: green;
+  }
+  fieldset {
+    border: none;
+    padding: 0.5rem 0;
+    border-bottom: 3px slid #3b3b4f
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0 ;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin: 10px 0 0;
+    height: 2.5em;
+    font-size: 1.1rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    color: black;
+  }
+  input[type="submit"]:hover {
+    
+    background-color: black;
+    color: #fff;
+    opacity: 0.5;
+  }
